@@ -1,7 +1,6 @@
 import streamlit as st
 import os
 import importlib.util
-from streamlit_navigation_bar import st_navbar
 
 # Seite konfigurieren (nur einmal in der Hauptdatei)
 st.set_page_config(
