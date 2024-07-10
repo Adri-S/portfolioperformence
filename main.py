@@ -2,6 +2,8 @@ import streamlit as st
 import os
 import importlib.util
 from streamlit_navigation_bar import st_navbar
+import pages as pg
+
 
 
 # Seite konfigurieren (nur einmal in der Hauptdatei)
