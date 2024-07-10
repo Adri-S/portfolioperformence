@@ -54,7 +54,7 @@ class MatchNavbar():
             this key.
         """
         self.styles = styles
-        self.theme = st_theme(key=f"key_{key}")
+        #self.theme = st_theme(key=f"key_{key}")
 
     def _get_theme_config(self, theme_configs):
         """
@@ -78,7 +78,7 @@ class MatchNavbar():
             The value of the CSS property found in `styles`, `theme` or config
             options. If not found, returns ``None``.
         """
-        theme = self.theme
+        #theme = self.theme
         configs = self.configs.values()
 
         # Get the value for the var in `styles`, then, for the `theme_config`.
