@@ -1,5 +1,5 @@
 from streamlit.config import get_config_options
-from streamlit_theme import st_theme
+#from streamlit_theme import st_theme
 
 
 class MatchNavbar():
